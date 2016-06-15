@@ -14,20 +14,28 @@ body {
 body {
   font-family: 'Chivo', sans-serif;
   background-color: #F0163A;
-  color: white;
-  border-top: 10px solid black; }
+  color: white; }
 
 a {
   color: white; }
+
+#mike {
+  position: fixed;
+  top: -40px;
+  left: -40px; }
+  #mike img {
+    transform: rotate(120deg);
+    width: 40%; }
 
 #tweet {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 64px;
+  font-size: 56px;
   width: 75%;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
   @media screen and (max-width: 768px) {
     #tweet {
       font-size: 32px; } }

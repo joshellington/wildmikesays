@@ -7,18 +7,29 @@ body {
   font-family: 'Chivo', sans-serif;
   background-color: #F0163A;
   color: white;
-  border-top: 10px solid black;
 }
 
 a {
   color: white;
 }
 
+#mike {
+  position: fixed;
+  top: -40px;
+  left: -40px;
+
+  img {
+    transform: rotate(120deg);
+    width: 40%;
+  }
+}
+
 #tweet {
   @include centerer;
-  font-size: 64px;
+  font-size: 56px;
   width: 75%;
   text-align: center;
+  font-weight: bold;
 
   @media screen and (max-width: 768px) {
     font-size: 32px;
