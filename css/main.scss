@@ -7,6 +7,11 @@ body {
   font-family: 'Chivo', sans-serif;
   background-color: #F0163A;
   color: white;
+  border-top: 10px solid black;
+}
+
+a {
+  color: white;
 }
 
 #tweet {
@@ -18,4 +23,22 @@ body {
   @media screen and (max-width: 768px) {
     font-size: 32px;
   }
+}
+
+p {
+  font-size: 13px;
+  margin: 0;
+  padding: 0 0 5px 0;
+
+  small {
+    font-size: 10px;
+  }
+}
+
+#info {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
