@@ -12,6 +12,10 @@ $(function() {
       updateTweet();
     }
   }
+
+  $('html').click(function() {
+    updateTweet();
+  });
 });
 
 function updateTweet() {
