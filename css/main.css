@@ -53,3 +53,24 @@ p {
   left: 0;
   width: 100%;
   text-align: center; }
+
+#share {
+  position: absolute;
+  bottom: 15px;
+  right: 15px; }
+  #share .fb_iframe_widget {
+    top: -4px;
+    margin-right: 10px; }
+  @media screen and (max-width: 768px) {
+    #share {
+      bottom: 0;
+      right: 0;
+      top: 15px;
+      right: 15px; }
+      #share iframe, #share div {
+        display: block;
+        margin-top: 10px; }
+      #share .fb_iframe_widget {
+        top: -10px;
+        margin-right: 0;
+        margin-bottom: 10px; } }
