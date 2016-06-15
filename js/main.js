@@ -13,7 +13,7 @@ $(function() {
     }
   }
 
-  $('html').click(function() {
+  $('*').click(function() {
     updateTweet();
   });
 });
