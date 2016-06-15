@@ -1,0 +1,29 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.hidden {
+  display: none;
+  visibility: hidden; }
+
+body {
+  font-family: 'Chivo', sans-serif;
+  background-color: #F0163A;
+  color: white; }
+
+#tweet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  width: 75%;
+  text-align: center; }
+  @media screen and (max-width: 768px) {
+    #tweet {
+      font-size: 32px; } }
